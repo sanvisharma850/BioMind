@@ -108,13 +108,19 @@ def run_helix(proteins: list[str], drug_mapping_data: dict, llm_call=call_llm) -
 # ---------------------------------------------------------------------------
 HELIX_DEMO_OUTPUT_ALS = [
     {
-        "protein": "PRKAA1 (AMPK alpha-1)",
+        "protein": "PRKAA1 (AMPK alpha-1 subunit)",
         "drug_name": "Metformin",
         "chembl_id": "CHEMBL1431",
         "approved_indication": "Type 2 diabetes mellitus",
-        "raw_mechanism": "AMPK activator (indirect, via mitochondrial complex I inhibition)",
-        "known_safety_flags": "none (standard dosing); contraindicated in severe renal impairment",
-        "mechanism_sentence": "Metformin activates AMPK, the same energy pathway impaired in ALS motor neurons."
+        "raw_mechanism": (
+            "Indirect AMPK-pathway activation associated with altered cellular "
+            "energy status following inhibition of mitochondrial respiration"
+        ),
+        "known_safety_flags": (
+            "none under standard prescribing conditions; contraindicated in "
+            "severe renal impairment"
+        ),
+        "mechanism_sentence": "Indirectly activates AMPK by altering cellular energy status."
     }
 ]
 
