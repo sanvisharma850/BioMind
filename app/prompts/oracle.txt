@@ -1,0 +1,17 @@
+score
+
+=
+
+0.4 literature
+
++
+
+0.3 pathway
+
++
+
+0.2 approval
+
++
+
+0.1 safety

@@ -1,0 +1,12 @@
+[
+    {
+        "pmid": "12345678",
+        "title": "Neuroinflammation in Amyotrophic Lateral Sclerosis",
+        "abstract": "Neuroinflammation involving TNF-alpha and IL-6 contributes significantly to ALS progression."
+    },
+    {
+        "pmid": "12345679",
+        "title": "Oxidative Stress Pathways in ALS",
+        "abstract": "Oxidative stress mediated through SOD1 mutation is associated with neuronal degeneration."
+    }
+]

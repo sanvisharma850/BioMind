@@ -1,0 +1,15 @@
+Amyotrophic Lateral Sclerosis
+Parkinson Disease
+Alzheimer Disease
+Huntington Disease
+Glioblastoma
+Breast Cancer
+Melanoma
+Non-Small Cell Lung Cancer
+Rheumatoid Arthritis
+Multiple Sclerosis
+Systemic Lupus Erythematosus
+Type 2 Diabetes Mellitus
+Heart Failure
+Tuberculosis
+COVID-19

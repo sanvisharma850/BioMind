@@ -1,0 +1,14 @@
+[
+    {
+        "drug":"Etanercept",
+        "approved":true
+    },
+    {
+        "drug":"Tocilizumab",
+        "approved":true
+    },
+    {
+        "drug":"Metformin",
+        "approved":true
+    }
+]

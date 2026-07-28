@@ -1,0 +1,10 @@
+Given proteins,
+
+identify approved drugs
+that target those proteins.
+
+Return JSON.
+
+{
+"drugs":[]
+}

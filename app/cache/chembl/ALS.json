@@ -1,0 +1,14 @@
+[
+    {
+        "protein":"TNF-alpha",
+        "drug":"Etanercept"
+    },
+    {
+        "protein":"IL-6",
+        "drug":"Tocilizumab"
+    },
+    {
+        "protein":"SOD1",
+        "drug":"Metformin"
+    }
+]

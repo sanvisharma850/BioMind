@@ -1,0 +1,17 @@
+[
+    {
+        "drug":"Etanercept",
+        "black_box_warning":false,
+        "failed_trial":true
+    },
+    {
+        "drug":"Tocilizumab",
+        "black_box_warning":false,
+        "failed_trial":false
+    },
+    {
+        "drug":"Metformin",
+        "black_box_warning":false,
+        "failed_trial":false
+    }
+]
