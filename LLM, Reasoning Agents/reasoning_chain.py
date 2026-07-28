@@ -156,13 +156,12 @@ def build_als_demo_reasoning_chain() -> dict:
         mechanism_sentence="Metformin activates AMPK, the same energy pathway impaired in ALS motor neurons.",
         pathway_name="AMPK energy-sensing / autophagy pathway",
         disease="ALS",
-        supporting_pmids=["PLACEHOLDER_2", "PLACEHOLDER_3"],
+        supporting_pmids=["34634461", "33161784"],
         safety_flags="contraindicated in severe renal impairment",
         safety_status="CAUTION",
         underlying_score_0_to_1=0.32,
         pathway_relevance=0.5,
     )
-
 
 if __name__ == "__main__":
     result = build_als_demo_reasoning_chain()
