@@ -4,17 +4,32 @@
 
 ---
 
+</div>
+
+<p align="center">
+  <img src="assets/v2_awv-a44c972a3823a57d (online-video-cutter.com).gif" width="700"/>
+</p>
+
 ## Abstract
 
 Drug repurposing is bottlenecked by evidence fragmentation, not by a shortage of biological insight. Disease-pathway literature, drug-target databases, and post-market safety records live in separate systems, and no single researcher cross-references all three before forming a hypothesis. **BioMind** solves this with a five-agent pipeline that automates evidence triage: it extracts disease-relevant pathways from literature, maps them to approved drugs via molecular targets, screens candidates against known safety data, and produces a ranked, citation-linked hypothesis report — end to end, in minutes, with every claim traceable to its source.
 
 BioMind's scope is deliberate and stated up front: it generates ranked, evidence-backed hypotheses for a human researcher to validate. It does not run wet-lab or in-silico validation, and it does not assign candidates a probability of clinical success. That distinction is the system's core design principle, not a limitation to apologize for: every score BioMind produces is a transparent, inspectable rule, and every claim resolves to a specific paper or database record. This report specifies the system architecture, the extraction and scoring algorithms behind each agent, and a fully worked case study (ALS / Metformin) using real pipeline output.
 
+
+
+
+
 ---
 
 ## 1. Problem Statement
 
 ### 1.1 The literature triage bottleneck
+
+
+<p align="center">
+  <img src="assets/Gemini_Generated_Image_d9zepkd9zepkd9ze.png" width="90%" />
+</p>
 
 Investigating whether an existing drug might treat a given disease requires four disconnected steps, performed manually, every time:
 
@@ -24,6 +39,10 @@ Investigating whether an existing drug might treat a given disease requires four
 4. **Synthesis** — combine all of the above into a ranked, defensible hypothesis.
 
 Each step is well-served individually by existing tools. None of them chains into the next. BioMind closes that gap.
+
+<p align="center">
+  <img src="assets/Gemini_Generated_Image_ojp7dwojp7dwojp7.png" width="90%" />
+</p>
 
 ### 1.2 Scope, stated precisely
 
@@ -70,7 +89,7 @@ BioMind runs five agents, each with one narrow, auditable responsibility. This d
                                                                          hypothesis report
 ```
  
-*(Build this diagram by hand rather than generating it with AI — image models render technical labels and boxes-and-arrows layouts unreliably.)*
+
  
 | Agent | Responsibility | Input | Output |
 |---|---|---|---|
@@ -85,6 +104,10 @@ BioMind runs five agents, each with one narrow, auditable responsibility. This d
 ## 4. Methodology: Algorithms
  
 ### 4.1 Algorithm 1 — LEXIS: Pathway/Protein Extraction
+
+<p align="center">
+  <img src="assets/Gemini_Generated_Image_r8y9lpr8y9lpr8y9.png" width="90%" />
+</p>
  
 LEXIS performs constrained extraction, not open generation. It is prohibited from asserting any pathway or protein not directly supported by a provided abstract, and every output field carries a citation. This constraint is enforced in code, not just in the prompt.
  
@@ -219,6 +242,7 @@ Output: final report R = [reasoning_chain_text per candidate]
 ---
  
 ## 6. Case Study: ALS / Metformin
+
  
 One complete pipeline run, using real output from the current implementation.
  
