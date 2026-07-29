@@ -1,0 +1,14 @@
+[
+    {
+        "protein": "HTT",
+        "drug": "Tetrabenazine"
+    },
+    {
+        "protein": "PDE10A",
+        "drug": "Deutetrabenazine"
+    },
+    {
+        "protein": "mTOR",
+        "drug": "Rapamycin"
+    }
+]

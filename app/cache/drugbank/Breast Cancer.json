@@ -1,0 +1,10 @@
+[
+    {
+        "drug": "Trastuzumab",
+        "indication": "HER2+ Breast Cancer"
+    },
+    {
+        "drug": "Tamoxifen",
+        "indication": "ER+ Breast Cancer"
+    }
+]

@@ -12,27 +12,25 @@ def shield_node(state):
     safety = faers.get_safety(disease)
 
     lookup = {
-
         x["drug"]: x
-
         for x in safety
-
     }
 
     output = []
 
     for drug in state["helix"]["drugs"]:
 
+        safety_data = lookup.get(drug["drug"], {
+            "drug": drug["drug"],
+            "black_box_warning": False,
+            "failed_trial": False
+        })
+
         output.append({
-
             **drug,
-
-            "safety": lookup.get(drug["drug"])
-
+            "safety": safety_data
         })
 
     return {
-
         "shield": output
-
     }

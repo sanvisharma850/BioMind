@@ -1,0 +1,12 @@
+[
+    {
+        "pmid": "12345671",
+        "title": "GLP-1 Receptor Agonists",
+        "abstract": "Semaglutide reduces HbA1c and cardiovascular events in T2D patients."
+    },
+    {
+        "pmid": "12345672",
+        "title": "SGLT2 Inhibition in T2D",
+        "abstract": "Empagliflozin reduces renal and cardiovascular outcomes in type 2 diabetes."
+    }
+]

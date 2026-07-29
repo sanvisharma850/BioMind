@@ -1,0 +1,12 @@
+[
+    {
+        "pmid": "45678901",
+        "title": "ACE2 Receptor and SARS-CoV-2",
+        "abstract": "ACE2 is the primary entry receptor for SARS-CoV-2 virus."
+    },
+    {
+        "pmid": "45678902",
+        "title": "Cytokine Storm in COVID-19",
+        "abstract": "IL-6 mediated cytokine storm drives severe COVID-19 outcomes."
+    }
+]

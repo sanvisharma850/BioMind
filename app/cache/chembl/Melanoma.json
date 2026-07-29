@@ -1,0 +1,14 @@
+[
+    {
+        "protein": "BRAF V600E",
+        "drug": "Vemurafenib"
+    },
+    {
+        "protein": "MEK",
+        "drug": "Trametinib"
+    },
+    {
+        "protein": "PD-1",
+        "drug": "Nivolumab"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "drug": "Natalizumab",
+        "black_box_warning": true,
+        "failed_trial": false
+    },
+    {
+        "drug": "Alemtuzumab",
+        "black_box_warning": true,
+        "failed_trial": false
+    },
+    {
+        "drug": "Fingolimod",
+        "black_box_warning": false,
+        "failed_trial": false
+    }
+]

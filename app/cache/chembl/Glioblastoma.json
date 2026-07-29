@@ -1,0 +1,14 @@
+[
+    {
+        "protein": "EGFR",
+        "drug": "Temozolomide"
+    },
+    {
+        "protein": "VEGF",
+        "drug": "Bevacizumab"
+    },
+    {
+        "protein": "MGMT",
+        "drug": "Lomustine"
+    }
+]

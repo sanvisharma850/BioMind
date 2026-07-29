@@ -1,0 +1,12 @@
+[
+    {
+        "pmid": "67890121",
+        "title": "HER2 Overexpression in Breast Cancer",
+        "abstract": "HER2 amplification occurs in 20% of breast cancers and drives aggressive disease."
+    },
+    {
+        "pmid": "67890122",
+        "title": "BRCA1 Mutations and PARP Inhibitors",
+        "abstract": "Olaparib shows efficacy in BRCA1-mutated breast cancer via synthetic lethality."
+    }
+]

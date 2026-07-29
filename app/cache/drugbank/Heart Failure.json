@@ -1,0 +1,10 @@
+[
+    {
+        "drug": "Enalapril",
+        "indication": "Heart Failure"
+    },
+    {
+        "drug": "Dapagliflozin",
+        "indication": "Heart Failure with reduced EF"
+    }
+]

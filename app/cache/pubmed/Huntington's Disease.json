@@ -1,0 +1,12 @@
+[
+    {
+        "pmid": "56789011",
+        "title": "mHTT Protein Aggregation",
+        "abstract": "Mutant huntingtin protein aggregates disrupt striatal neuron function in HD."
+    },
+    {
+        "pmid": "56789012",
+        "title": "Vesicular Monoamine Transport in HD",
+        "abstract": "Tetrabenazine reduces chorea by inhibiting VMAT2 in Huntington's disease."
+    }
+]

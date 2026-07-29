@@ -1,0 +1,17 @@
+[
+    {
+        "drug": "Donepezil",
+        "black_box_warning": false,
+        "failed_trial": false
+    },
+    {
+        "drug": "Rivastigmine",
+        "black_box_warning": false,
+        "failed_trial": false
+    },
+    {
+        "drug": "Memantine",
+        "black_box_warning": false,
+        "failed_trial": false
+    }
+]

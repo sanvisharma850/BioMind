@@ -1,0 +1,12 @@
+[
+    {
+        "pmid": "34567891",
+        "title": "Dopaminergic Pathways in Parkinson's",
+        "abstract": "Loss of dopaminergic neurons in substantia nigra is central to Parkinson's disease pathology."
+    },
+    {
+        "pmid": "34567892",
+        "title": "Alpha-synuclein Aggregation",
+        "abstract": "Alpha-synuclein forms Lewy bodies linked to neurodegeneration in PD."
+    }
+]

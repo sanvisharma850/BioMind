@@ -1,4 +1,5 @@
 import json
+from json_repair import repair_json
 
 from langchain_core.messages import HumanMessage
 
@@ -12,26 +13,18 @@ PROMPT = load_prompt("lexis")
 
 @timed
 def lexis_node(state):
-    
 
     disease = state["disease"]
 
     print("Disease received:", state["disease"])
-    print("Before retrieve_context:", disease)
-    
-    context = retrieve_context(disease)
 
     context = retrieve_context(disease)
 
     llm = get_llm()
 
-    response = llm.invoke(
-
-        [
-
-            HumanMessage(
-
-                content=f"""
+    response = llm.invoke([
+        HumanMessage(
+            content=f"""
 {PROMPT}
 
 Disease:
@@ -42,19 +35,14 @@ Relevant biomedical literature:
 
 {context}
 """
-
-            )
-
-        ]
-
-    )
+        )
+    ])
 
     print("\n========== LLM RESPONSE ==========")
     print(response.content)
     print("==================================\n")
 
+    repaired = repair_json(response.content)
     return {
-
-        "lexis": json.loads(response.content)
-
+        "lexis": json.loads(repaired)
     }

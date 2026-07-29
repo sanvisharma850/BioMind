@@ -1,0 +1,14 @@
+[
+    {
+        "protein": "BACE1",
+        "drug": "Donepezil"
+    },
+    {
+        "protein": "AChE",
+        "drug": "Rivastigmine"
+    },
+    {
+        "protein": "NMDAR",
+        "drug": "Memantine"
+    }
+]

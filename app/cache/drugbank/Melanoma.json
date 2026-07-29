@@ -1,0 +1,10 @@
+[
+    {
+        "drug": "Vemurafenib",
+        "indication": "BRAF V600E Melanoma"
+    },
+    {
+        "drug": "Nivolumab",
+        "indication": "Metastatic Melanoma"
+    }
+]

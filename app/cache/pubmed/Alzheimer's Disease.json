@@ -1,0 +1,12 @@
+[
+    {
+        "pmid": "23456781",
+        "title": "BACE1 Inhibition in Alzheimer's Disease",
+        "abstract": "BACE1 inhibitors reduce amyloid-beta production and slow AD progression."
+    },
+    {
+        "pmid": "23456782",
+        "title": "Cholinergic Hypothesis in AD",
+        "abstract": "AChE inhibitors like donepezil improve cognition in Alzheimer's patients."
+    }
+]

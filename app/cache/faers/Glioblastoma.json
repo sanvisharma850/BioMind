@@ -1,0 +1,17 @@
+[
+    {
+        "drug": "Temozolomide",
+        "black_box_warning": true,
+        "failed_trial": false
+    },
+    {
+        "drug": "Bevacizumab",
+        "black_box_warning": false,
+        "failed_trial": false
+    },
+    {
+        "drug": "Lomustine",
+        "black_box_warning": true,
+        "failed_trial": false
+    }
+]

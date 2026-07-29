@@ -1,0 +1,14 @@
+[
+    {
+        "protein": "HER2",
+        "drug": "Trastuzumab"
+    },
+    {
+        "protein": "ER",
+        "drug": "Tamoxifen"
+    },
+    {
+        "protein": "BRCA1",
+        "drug": "Olaparib"
+    }
+]

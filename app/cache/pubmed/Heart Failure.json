@@ -1,0 +1,12 @@
+[
+    {
+        "pmid": "01234561",
+        "title": "ACE Inhibitors in Heart Failure",
+        "abstract": "ACE inhibition reduces cardiac remodeling and improves survival in HFrEF."
+    },
+    {
+        "pmid": "01234562",
+        "title": "SGLT2 Inhibitors in HF",
+        "abstract": "Dapagliflozin reduces hospitalizations and mortality in heart failure patients."
+    }
+]

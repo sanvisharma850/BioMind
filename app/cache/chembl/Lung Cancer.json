@@ -1,0 +1,14 @@
+[
+    {
+        "protein": "EGFR",
+        "drug": "Erlotinib"
+    },
+    {
+        "protein": "ALK",
+        "drug": "Crizotinib"
+    },
+    {
+        "protein": "PD-L1",
+        "drug": "Pembrolizumab"
+    }
+]

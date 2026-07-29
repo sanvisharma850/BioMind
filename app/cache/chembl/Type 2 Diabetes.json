@@ -1,0 +1,14 @@
+[
+    {
+        "protein": "GLP-1R",
+        "drug": "Semaglutide"
+    },
+    {
+        "protein": "SGLT2",
+        "drug": "Empagliflozin"
+    },
+    {
+        "protein": "DPP-4",
+        "drug": "Sitagliptin"
+    }
+]

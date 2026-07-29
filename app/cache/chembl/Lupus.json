@@ -1,0 +1,14 @@
+[
+    {
+        "protein": "BLyS",
+        "drug": "Belimumab"
+    },
+    {
+        "protein": "IFN-alpha",
+        "drug": "Anifrolumab"
+    },
+    {
+        "protein": "CD20",
+        "drug": "Rituximab"
+    }
+]

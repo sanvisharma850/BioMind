@@ -1,0 +1,17 @@
+[
+    {
+        "drug": "Semaglutide",
+        "black_box_warning": true,
+        "failed_trial": false
+    },
+    {
+        "drug": "Empagliflozin",
+        "black_box_warning": false,
+        "failed_trial": false
+    },
+    {
+        "drug": "Sitagliptin",
+        "black_box_warning": false,
+        "failed_trial": false
+    }
+]

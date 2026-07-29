@@ -1,0 +1,17 @@
+[
+    {
+        "drug": "Remdesivir",
+        "black_box_warning": false,
+        "failed_trial": false
+    },
+    {
+        "drug": "Tocilizumab",
+        "black_box_warning": false,
+        "failed_trial": false
+    },
+    {
+        "drug": "Camostat",
+        "black_box_warning": false,
+        "failed_trial": true
+    }
+]

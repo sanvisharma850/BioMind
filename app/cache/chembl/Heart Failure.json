@@ -1,0 +1,14 @@
+[
+    {
+        "protein": "ACE",
+        "drug": "Enalapril"
+    },
+    {
+        "protein": "Beta-1 AR",
+        "drug": "Carvedilol"
+    },
+    {
+        "protein": "SGLT2",
+        "drug": "Dapagliflozin"
+    }
+]

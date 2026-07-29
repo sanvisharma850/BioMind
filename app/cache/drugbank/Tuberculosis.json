@@ -1,0 +1,10 @@
+[
+    {
+        "drug": "Isoniazid",
+        "indication": "Tuberculosis"
+    },
+    {
+        "drug": "Rifampicin",
+        "indication": "Tuberculosis"
+    }
+]

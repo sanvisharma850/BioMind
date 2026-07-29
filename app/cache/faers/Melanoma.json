@@ -1,0 +1,17 @@
+[
+    {
+        "drug": "Vemurafenib",
+        "black_box_warning": false,
+        "failed_trial": false
+    },
+    {
+        "drug": "Trametinib",
+        "black_box_warning": false,
+        "failed_trial": false
+    },
+    {
+        "drug": "Nivolumab",
+        "black_box_warning": false,
+        "failed_trial": false
+    }
+]

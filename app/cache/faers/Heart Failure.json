@@ -1,0 +1,17 @@
+[
+    {
+        "drug": "Enalapril",
+        "black_box_warning": false,
+        "failed_trial": false
+    },
+    {
+        "drug": "Carvedilol",
+        "black_box_warning": false,
+        "failed_trial": false
+    },
+    {
+        "drug": "Dapagliflozin",
+        "black_box_warning": false,
+        "failed_trial": false
+    }
+]

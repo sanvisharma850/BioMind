@@ -1,0 +1,12 @@
+[
+    {
+        "pmid": "34567891",
+        "title": "TNF-alpha in RA",
+        "abstract": "TNF-alpha blockade with adalimumab reduces inflammation in rheumatoid arthritis."
+    },
+    {
+        "pmid": "34567892",
+        "title": "JAK Inhibition in RA",
+        "abstract": "Tofacitinib inhibits JAK1/JAK3 reducing synovial inflammation in RA."
+    }
+]

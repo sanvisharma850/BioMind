@@ -1,0 +1,14 @@
+[
+    {
+        "protein": "ACE2",
+        "drug": "Remdesivir"
+    },
+    {
+        "protein": "TMPRSS2",
+        "drug": "Camostat"
+    },
+    {
+        "protein": "IL-6R",
+        "drug": "Tocilizumab"
+    }
+]

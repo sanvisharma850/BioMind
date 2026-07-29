@@ -1,0 +1,10 @@
+[
+    {
+        "drug": "Erlotinib",
+        "indication": "NSCLC"
+    },
+    {
+        "drug": "Pembrolizumab",
+        "indication": "Lung Cancer"
+    }
+]

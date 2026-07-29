@@ -1,0 +1,12 @@
+[
+    {
+        "pmid": "56789011",
+        "title": "EGFR Amplification in GBM",
+        "abstract": "EGFR amplification is a common driver mutation in glioblastoma multiforme."
+    },
+    {
+        "pmid": "56789012",
+        "title": "Angiogenesis in Glioblastoma",
+        "abstract": "VEGF-driven angiogenesis promotes tumor growth in GBM."
+    }
+]

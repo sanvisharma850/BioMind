@@ -1,0 +1,10 @@
+[
+    {
+        "drug": "Remdesivir",
+        "indication": "COVID-19"
+    },
+    {
+        "drug": "Tocilizumab",
+        "indication": "COVID-19 cytokine storm"
+    }
+]

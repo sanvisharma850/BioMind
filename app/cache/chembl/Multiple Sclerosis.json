@@ -1,0 +1,14 @@
+[
+    {
+        "protein": "TNF-alpha",
+        "drug": "Natalizumab"
+    },
+    {
+        "protein": "CD52",
+        "drug": "Alemtuzumab"
+    },
+    {
+        "protein": "S1P",
+        "drug": "Fingolimod"
+    }
+]

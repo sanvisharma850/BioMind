@@ -1,0 +1,12 @@
+[
+    {
+        "pmid": "23456781",
+        "title": "InhA Target in MTB",
+        "abstract": "InhA is the primary target of isoniazid in Mycobacterium tuberculosis."
+    },
+    {
+        "pmid": "23456782",
+        "title": "Drug Resistance in TB",
+        "abstract": "RpoB mutations cause rifampicin resistance in MDR-TB strains."
+    }
+]

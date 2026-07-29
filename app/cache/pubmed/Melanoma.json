@@ -1,0 +1,12 @@
+[
+    {
+        "pmid": "45678901",
+        "title": "BRAF Mutation in Melanoma",
+        "abstract": "BRAF V600E mutation drives 50% of melanoma cases and is targetable by vemurafenib."
+    },
+    {
+        "pmid": "45678902",
+        "title": "PD-1 Checkpoint in Melanoma",
+        "abstract": "Anti-PD-1 therapy with nivolumab improves overall survival in advanced melanoma."
+    }
+]

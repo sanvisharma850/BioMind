@@ -1,0 +1,17 @@
+[
+    {
+        "drug": "Isoniazid",
+        "black_box_warning": true,
+        "failed_trial": false
+    },
+    {
+        "drug": "Rifampicin",
+        "black_box_warning": false,
+        "failed_trial": false
+    },
+    {
+        "drug": "Moxifloxacin",
+        "black_box_warning": false,
+        "failed_trial": false
+    }
+]

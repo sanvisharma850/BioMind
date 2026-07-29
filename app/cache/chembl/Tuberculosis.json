@@ -1,0 +1,14 @@
+[
+    {
+        "protein": "InhA",
+        "drug": "Isoniazid"
+    },
+    {
+        "protein": "RpoB",
+        "drug": "Rifampicin"
+    },
+    {
+        "protein": "GyrA",
+        "drug": "Moxifloxacin"
+    }
+]

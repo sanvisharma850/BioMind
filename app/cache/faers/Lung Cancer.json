@@ -1,0 +1,17 @@
+[
+    {
+        "drug": "Erlotinib",
+        "black_box_warning": false,
+        "failed_trial": false
+    },
+    {
+        "drug": "Crizotinib",
+        "black_box_warning": false,
+        "failed_trial": false
+    },
+    {
+        "drug": "Pembrolizumab",
+        "black_box_warning": false,
+        "failed_trial": false
+    }
+]

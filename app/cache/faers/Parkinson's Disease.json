@@ -1,0 +1,17 @@
+[
+    {
+        "drug": "Levodopa",
+        "black_box_warning": false,
+        "failed_trial": false
+    },
+    {
+        "drug": "Selegiline",
+        "black_box_warning": false,
+        "failed_trial": false
+    },
+    {
+        "drug": "Nilotinib",
+        "black_box_warning": false,
+        "failed_trial": true
+    }
+]

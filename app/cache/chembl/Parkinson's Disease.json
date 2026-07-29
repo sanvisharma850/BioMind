@@ -1,0 +1,14 @@
+[
+    {
+        "protein": "Dopamine D2",
+        "drug": "Levodopa"
+    },
+    {
+        "protein": "MAO-B",
+        "drug": "Selegiline"
+    },
+    {
+        "protein": "Alpha-synuclein",
+        "drug": "Nilotinib"
+    }
+]

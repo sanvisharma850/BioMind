@@ -1,0 +1,17 @@
+[
+    {
+        "drug": "Trastuzumab",
+        "black_box_warning": true,
+        "failed_trial": false
+    },
+    {
+        "drug": "Tamoxifen",
+        "black_box_warning": false,
+        "failed_trial": false
+    },
+    {
+        "drug": "Olaparib",
+        "black_box_warning": false,
+        "failed_trial": false
+    }
+]

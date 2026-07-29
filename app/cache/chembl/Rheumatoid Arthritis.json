@@ -1,0 +1,14 @@
+[
+    {
+        "protein": "TNF-alpha",
+        "drug": "Adalimumab"
+    },
+    {
+        "protein": "IL-6R",
+        "drug": "Tocilizumab"
+    },
+    {
+        "protein": "JAK1",
+        "drug": "Tofacitinib"
+    }
+]
