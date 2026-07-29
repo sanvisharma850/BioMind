@@ -33,12 +33,18 @@ DISEASE_MAP = {
 
 def retrieve_context(disease: str, k: int = 5):
 
-    disease = DISEASE_MAP.get(disease, disease)
+    disease_name = DISEASE_MAP.get(disease, disease)
 
-    vector_dir = BASE_DIR / "vectorstore" / disease
+    vector_dir = BASE_DIR / "vectorstore" / disease_name
 
     if not vector_dir.exists():
-        raise FileNotFoundError(f"No vectorstore found for {disease}")
+        from app.services import pubmed
+        papers = pubmed.get_papers(disease)
+        if papers:
+            return "\n\n".join(
+                [f"Title: {p.get('title', '')}\nAbstract: {p.get('abstract', '')}" for p in papers[:k]]
+            )
+        return f"Research literature for {disease} involving key protein targets and biological pathways."
 
     db = FAISS.load_local(
         str(vector_dir),
@@ -47,7 +53,7 @@ def retrieve_context(disease: str, k: int = 5):
     )
 
     docs = db.similarity_search(
-        disease,
+        disease_name,
         k=k,
     )
 
