@@ -153,10 +153,13 @@ def polish_reasoning_chain(raw_sentence: str, llm_call) -> str:
 def build_als_demo_reasoning_chain() -> dict:
     return generate_reasoning_chain(
         drug_name="Metformin",
-        mechanism_sentence="Metformin activates AMPK, the same energy pathway impaired in ALS motor neurons.",
+        mechanism_sentence=(
+            "Metformin activates AMPK and autophagy pathways relevant to "
+            "neuronal energy regulation and protein clearance."
+        ),
         pathway_name="AMPK energy-sensing / autophagy pathway",
-        disease="ALS",
-        supporting_pmids=["PLACEHOLDER_2", "PLACEHOLDER_3"],
+        disease="Amyotrophic Lateral Sclerosis (ALS)",
+        supporting_pmids=["34634461", "33161784"],
         safety_flags="contraindicated in severe renal impairment",
         safety_status="CAUTION",
         underlying_score_0_to_1=0.32,
