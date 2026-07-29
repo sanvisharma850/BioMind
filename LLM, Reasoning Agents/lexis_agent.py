@@ -129,14 +129,14 @@ LEXIS_DEMO_OUTPUT_ALS = {
         {
             "pathway_name": "TDP-43 proteinopathy",
             "protein": "TARDBP (TDP-43)",
-            "mechanism_summary": "TDP-43 mislocalizes from nucleus to cytoplasm and forms aggregates that disrupt RNA processing, a hallmark seen in most ALS cases.",
-            "supporting_pmids": ["PLACEHOLDER_1"]
+            "mechanism_summary": "TDP-43 mislocalizes from the nucleus to the cytoplasm and forms aggregates that disrupt RNA processing, a hallmark observed in most ALS cases.",
+            "supporting_pmids": ["25652699"]
         },
         {
             "pathway_name": "AMPK energy-sensing / autophagy pathway",
             "protein": "PRKAA1 (AMPK alpha-1)",
-            "mechanism_summary": "AMPK signaling is dysregulated in ALS motor neurons; restoring AMPK activity improves autophagic clearance of aggregated proteins including TDP-43.",
-            "supporting_pmids": ["PLACEHOLDER_2", "PLACEHOLDER_3"]
+            "mechanism_summary": "Abnormal AMPK activation is associated with TDP-43 and RNA-binding-protein mislocalization in ALS motor neurons. Metformin-related AMPK activation and autophagy provide a pathway-level drug-repurposing hypothesis, not proof of ALS efficacy.",
+            "supporting_pmids": ["34634461", "33161784"]
         }
     ]
 }
