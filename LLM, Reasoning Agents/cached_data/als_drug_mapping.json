@@ -1,23 +1,16 @@
 {
-  "_note": "PLACEHOLDER DATA in the same sense as als_literature.json — structurally realistic (this is genuinely how ChEMBL/DrugBank records this kind of data) but should be swapped for a real ChEMBL/DrugBank API pull before submission. The Metformin-AMPK-PRKAA1 relationship shown here is real and well documented; treat the exact ChEMBL ID as illustrative until verified.",
+  "_note": "Evidence-qualified cached drug mapping for the ALS demonstration. Metformin is recorded in ChEMBL under the parent molecule identifier CHEMBL1431 and is approved for type 2 diabetes mellitus. It is included as an indirect AMPK-pathway modulator, not as a verified direct-binding ligand of PRKAA1. The relationship to ALS is a pathway-level drug-repurposing hypothesis and must not be presented as evidence that metformin treats ALS.",
   "proteins_of_interest": [
     {
       "protein": "PRKAA1 (AMPK alpha-1 subunit)",
-      "role_in_disease": "Energy-sensing kinase; dysregulated in ALS motor neurons per PLACEHOLDER_2",
+      "role_in_disease": "PRKAA1 encodes an AMPK catalytic subunit involved in cellular energy sensing. Abnormal AMPK signalling and energy-homeostasis disruption have been investigated in ALS motor-neuron models.",
       "approved_drugs_targeting_protein": [
         {
           "drug_name": "Metformin",
           "chembl_id": "CHEMBL1431",
           "approved_indication": "Type 2 diabetes mellitus",
-          "mechanism": "AMPK activator (indirect, via mitochondrial complex I inhibition)",
-          "known_safety_flags": "none (standard dosing); contraindicated in severe renal impairment"
-        },
-        {
-          "drug_name": "Metformin_alt_note",
-          "chembl_id": null,
-          "approved_indication": null,
-          "mechanism": "placeholder slot — HELIX should surface 1-3 candidates per protein; add a second real candidate here (e.g. another AMPK activator) once ChEMBL is queried live",
-          "known_safety_flags": null
+          "mechanism": "Indirect activation of AMPK following changes in cellular energy status associated with inhibition of mitochondrial respiration; metformin is not represented as a direct PRKAA1-binding ligand.",
+          "known_safety_flags": "contraindicated in severe renal impairment; risk of metformin-associated lactic acidosis increases when drug clearance is substantially reduced"
         }
       ]
     }
